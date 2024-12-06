@@ -48,6 +48,5 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: rg.fr-par.scw.cloud/polytech-2024
+          tags: rg.fr-par.scw.cloud/polytech-2024/payre/backend_de_merde:v0
 
-          
