@@ -49,3 +49,5 @@ jobs:
           file: Dockerfile
           push: true
           tags: rg.fr-par.scw.cloud/polytech-2024
+
+          
