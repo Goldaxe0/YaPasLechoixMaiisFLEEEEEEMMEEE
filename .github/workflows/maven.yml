@@ -40,7 +40,7 @@ jobs:
         with:
           registry: rg.fr-par.scw.cloud/polytech-2024
           username: ${{ env.DOCKER_USERNAME }}
-          password: ${{ secret.DOCKER_API_KEY }}
+          password: ${{ secrets.DOCKER_API_KEY }}
           
       - name: Build and push
         uses: docker/build-push-action@v5
